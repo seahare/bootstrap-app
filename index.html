@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./lib/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+<header class="mb-2 py-2 justify-content-md-between shadow-sm sticky-top bg-light">
+    <div class="container d-flex">
+        <ul class="nav col-md-4 me-lg-auto">
+            <li class="nav-item"><a href="#" class="nav-link link-secondary" aria-current="page">首页</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark">归档</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark">友链</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-dark">关于我</a></li>
+        </ul>
+        <form class="col-md-2 text-end">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+    </div>
+
+</header>
+
+<main class="container my-3">
+
+    <div class="row g-5">
+        <div class="col-md-8">
+            <h4 class="h4 small text-dark">最新博客</h4>
+            <article class="blog-post">
+                <h2 class="display-5 mb-1">Sample blog post</h2>
+                <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+
+                <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+            </article>
+
+            <article class="blog-post">
+                <h2 class="display-5 mb-1">Another blog post</h2>
+                <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+
+                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            </article>
+
+            <article class="blog-post">
+                <h2 class="display-5 mb-1">New feature</h2>
+                <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+
+                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+            </article>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="" style="top: 2rem;">
+                <h4 class="d-flex small text-dark">关于</h4>
+                <div class="p-4 mb-3 bg-body-tertiary rounded">
+                    <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+                </div>
+            </div>
+
+            <div class="classify">
+                <h4 class="d-flex justify-content-between align-items-center mb-3 small">
+                    <span class="text-dark">
+                        分类
+                    </span>
+                    <span class="badge bg-primary rounded-pill">2</span>
+                </h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">技术</h6>
+                        </div>
+                        <span class="text-body-secondary">12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                            <h6 class="my-0">生活</h6>
+                        </div>
+                        <span class="text-body-secondary">8</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tags">
+                <h4 class="d-flex justify-content-start align-items-center mb-3 small">
+
+                    <span class="">标签
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+                            <path d="M3 2v4.586l7 7L14.586 9l-7-7zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586z"></path>
+                            <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1z"></path>
+                        </svg>
+                    </span>
+
+                </h4>
+
+                <div>
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Java</a>
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Node.js</a>
+
+
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Svelte</a>
+                    <a class="btn btn-light btn-secondary disabled" role="button" aria-disabled="true">Mysql</a>
+
+
+                    <a class="my-1 btn btn-light disabled" role="button" aria-disabled="true">redis</a>
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Kafka</a>
+
+
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Javascript</a>
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">Bootstrap</a>
+                    <a class="btn btn-light disabled" role="button" aria-disabled="true">一百件想要完成的事</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="footer mt-auto">
+    <div class="container">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2021 - 2024 Hello石狐 - 桂ICP备2024049333号-1</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
